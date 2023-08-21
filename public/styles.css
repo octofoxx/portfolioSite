@@ -60,21 +60,13 @@ nav ul li{
     outline: 5px inset var(--piping);
 }
 
-/*::before pseudo-element applies the music note emoji in-front of my list items*/
 nav li::before {
     content:"🎶";
 }
 
-/*the :hover pseudo-class lowers the opacity of my link items when the cursor is over them*/
 nav li:hover{
-    opacity: .8;
+    background-color: rgba(0,0,0,0.8);
 }
-
-/*the :active pseudo-class lowers the opacity even further when the list item is clicked on*/
-nav li:active{
-    opacity: .5;
-}
-
 p{
     margin-bottom: 25px;
 }
@@ -83,50 +75,6 @@ section{
     align-items: center;
     margin-bottom: 100px;
 }
-
-/*using div here to break smaller imgs from flow of first one*/
-div{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#bigtitle{
-    text-indent: 50px;
-    font-size: 24px;
-    font-style: oblique;
-}
-
- .img{
-    max-width:100%;
-    outline: 5px solid var(--piping);
- }
-
- .img:hover{
-    opacity: .8;
-    cursor: pointer;
- }
-
- .img:active{
-    opacity: .5;
- }
-
- .main{
-    display: flex;
-    flex-wrap: wrap;
-    flex: 2 0 800px;
-    align-items:center;
- }
-
- .secondary{
-    display: flex;
-    flex-wrap: wrap;
-    flex: 0 1 175px;
-    align-items:center;
-    
- }
- 
  .contact{
     display: flex;
     flex-wrap: wrap;
