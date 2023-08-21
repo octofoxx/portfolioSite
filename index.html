@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,24 +11,25 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link rel="stylesheet" href="./public/styles.css">
 </head>
+
 <body>
     <header>
-        <img class= pfp src="public/images/pfp2.jpg" alt="Profile picture of Jacob 'Jazz' Dominguez.">
+        <img class=pfp src="public/images/pfp2.jpg" alt="Profile picture of Jacob 'Jazz' Dominguez.">
         <h1 class="title" style="font-family: 'Audiowide',sans-serif;">
-           Jacob "Jazz" Dominguez
+            Jacob "Jazz" Dominguez
         </h1>
-        <img class= pfp src="public/images/jazzAlt.jpg" alt="Profile picture for Github account.">
+        <img class=pfp src="public/images/jazzAlt.jpg" alt="Profile picture for Github account.">
     </header>
     <nav>
         <ul>
             <li>
-               <a href="#about-me">About Me</a>
+                <a href="#about-me">About Me</a>
             </li>
             <li>
-               <a href="#projects">Projects</a>
+                <a href="#projects">Projects</a>
             </li>
             <li>
-               <a href="#contact-info">Contact Info</a>
+                <a href="#contact-info">Contact Info</a>
             </li>
         </ul>
     </nav>
@@ -35,17 +37,43 @@
         <section id="about-me">
             <h2 class="is-size-3 has-text-weight-bold" style="font-family: 'Audiowide',sans-serif;"> About Me</h2>
             <p>
-                I am a student currently enrolled in the UC Berkeley full-stack web development bootcamp, doing my best to learn! I hope to provide many great applications/sites here in the future!
+                I am a student currently enrolled in the UC Berkeley full-stack web development bootcamp, doing my best
+                to learn! I hope to provide many great applications/sites here in the future!
             </p>
             <p>
-                I've been working retail since I was 19 years old, and now at 36 it has become time for me to make a change. I have lots of experience when it comes to retail sales, building teamwork, training individuals and working with objective based sales goals.
+                I've been working retail since I was 19 years old, and now at 36 it has become time for me to make a
+                change. I have lots of experience when it comes to retail sales, building teamwork, training individuals
+                and working with objective based sales goals.
             </p>
             <p>
-                In my personal time I love to play video games, try new foods and go out with friends for cocktails. I tend to lead a quiet life and enjoy just hanging out around my home. 
+                In my personal time I love to play video games, try new foods and go out with friends for cocktails. I
+                tend to lead a quiet life and enjoy just hanging out around my home.
             </p>
         </section>
         <section id="projects">
             <h2 class="is-size-3 has-text-weight-bold" style="font-family: 'Audiowide',sans-serif;"> Projects</h2>
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 2</div>
+                    <a href ="https://tannerrhines.github.io/BerkeleyRacingClub/">
+                    <img src="./public/images/BRCdemo.png" style="width:100%"></a>
+                    <div class="text">Group Project #1: a front-end website of a randomly generated horse battle game.</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 2</div>
+                    <a href=" https://horse-creator-app-9839a5a7a948.herokuapp.com/">
+                    <img src="./public/images/horseCreate.png" style="width:100%"></a>
+                    <div class="text">Group Project #2: a full-stack website to create a DnD style horse character.</div>
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
         </section>
         <section id="contact-info">
             <h2 class="is-size-3 has-text-weight-bold" style="font-family: 'Audiowide',sans-serif;">Contact Info</h2>
@@ -54,22 +82,28 @@
                     Phone# :1(408)218-2479
                 </li>
                 <li>
-                    Email: <a href="mailto:devilmaycry87x@gmail.com">devilmaycry87x@gmail.com</a>
+                    <a href="mailto:devilmaycry87x@gmail.com">Email:devilmaycry87x@gmail.com</a>
                 </li>
                 <li>
-                    Discord: <a href="https://discordapp.com/users/134112641466630144">Jazz</a>
+                    <a href="https://discordapp.com/users/134112641466630144">Discord:Jazz</a>
                 </li>
                 <li>
-                    Github: <a href="https://github.com/octofoxx">octofoxx</a>
+                    <a href="https://github.com/octofoxx">Github:octofoxx</a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/jazz-dominguez-228825289/">LinkedIn Profile</a>
                 </li>
             </ul>
-        </section> 
+        </section>
     </main>
 </body>
 
 <footer>
     Made with lots of passion (and coffee) by Jazz
 </footer>
-    
+
+<script src="./public/script.js"></script>
+
 </body>
+
 </html>
