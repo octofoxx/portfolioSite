@@ -188,3 +188,10 @@ section{
         color:var(--piping);
       }
  }
+
+ @media screen and (max-width: 540px) {
+    header {
+        display: flex;
+        flex-wrap: wrap;
+    }
+ }
