@@ -89,6 +89,10 @@ section{
     animation: synth 2s infinite;
  }
 
+ .contact a:hover{
+    color: inherit;
+ }
+
  footer{
     text-align: center;
     font-style: italic;
