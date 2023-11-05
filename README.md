@@ -1,2 +1,2 @@
 # portfolioSite
-A new, better (?) portfolio page 
+A new, better (?) portfolio page. 
